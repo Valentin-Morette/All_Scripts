@@ -7,6 +7,8 @@
     # "deploy": "gh-pages -d build"
 # }
 
+# bash installGithubPages.sh pour lancer le script
+
 if [ -e node_modules/.cache/gh-pages/ ]; 
 then
   echo "gh-pages déjà installé"
