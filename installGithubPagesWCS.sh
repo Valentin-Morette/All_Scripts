@@ -1,13 +1,18 @@
 #!/bin/bash
 
+# Permet de déployer un projet avec le template frontend de la Wild sur github pages
+
 # Dans package.json, ajouter :
 
-# "homepage": "https://Valentin-Morette.github.io/NomDuRepo",
 # "scripts": {
-    # "deploy": "gh-pages -d build"
+    # "deploy": "gh-pages -d dist"
 # }
 
-# bash installGithubPages.sh pour lancer le script
+# Dans vite.config.js, ajouter :
+
+# base : 'https://Valentin-Morette.github.io/NomDuRepo/'
+
+# bash installGithubPagesWCS.sh pour lancer le script
 
 if [ -e node_modules/.cache/gh-pages/ ]; 
 then
